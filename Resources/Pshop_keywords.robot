@@ -22,7 +22,7 @@ Verify Invalid Email Address
     Wait Until Element Is Visible    ${InvalidEmail}
 
 Input Email Address
-    Input Text    ${InputEmailAddress}    text=sipakargigi@gmail.com
+    Input Text    ${InputEmailAddress}    text=poritic956@charav.com
 
 Click Button Register
     Click Element    ${RegisterBtn}
@@ -55,11 +55,11 @@ Input Address
 Input City
     Input Text    ${City}    text=Sleman
 Select State
-    Select From List By Value    ${State}    Arizona
+    Select From List By Value    ${State}    3
 Input Postal
     Input Text    ${Postal}    text=55555
 Select Country
-    Select From List By Value    ${Country}    United States
+    Select From List By Value    ${Country}    21
 Input Additional Information
     Input Text    ${Other}    text=None
 Input Phone Mobile
@@ -74,9 +74,9 @@ Click SignOut
 Verify Login Form
     Wait Until Element Is Visible    ${Auth}
 Input Invalid Email Sign In
-    Input Text    ${InputEmail}    text=sipakar@gmail.com
+    Input Text    ${InputEmail}    text=poritic@charav.com
 Input Valid Email Sign In
-    Input Text    ${InputEmail}    text=sipakargigi@gmail.com
+    Input Text    ${InputEmail}    text=poritic956@charav.com
 Input Valid Password Sign In
     Input Text    ${InputPassword}    text=asusG550JK+
 Input Invalid Password Sign In
