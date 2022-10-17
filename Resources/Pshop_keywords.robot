@@ -12,21 +12,21 @@ Open Browser With Firefox
 
 Click Button Sign In
     Click Element   ${SignInBtn}
-    Sleep    3
+    Sleep    10
 
 Click Button Create
     Click Element    ${CreateBtn}
-    Sleep    3
+    Sleep    10
 
 Verify Invalid Email Address
     Wait Until Element Is Visible    ${InvalidEmail}
 
 Input Email Address
-    Input Text    ${InputEmailAddress}    text=poritic956@charav.com
+    Input Text    ${InputEmailAddress}    text=rimeliw920@charav.com
 
 Click Button Register
     Click Element    ${RegisterBtn}
-    Sleep    3
+    Sleep    10
 
 Verify Invalid Create
     Wait Until Element Is Visible    ${InvalidCreate}
@@ -70,20 +70,20 @@ Verify Account
     Wait Until Element Is Visible    ${Account}
 Click SignOut
     Click Element    ${SignOut}
-    Sleep    3
+    Sleep    10
 Verify Login Form
     Wait Until Element Is Visible    ${Auth}
 Input Invalid Email Sign In
-    Input Text    ${InputEmail}    text=poritic@charav.com
+    Input Text    ${InputEmail}    text=rimeliw920charav.com
 Input Valid Email Sign In
-    Input Text    ${InputEmail}    text=poritic956@charav.com
+    Input Text    ${InputEmail}    text=rimeliw920@charav.com
 Input Valid Password Sign In
     Input Text    ${InputPassword}    text=asusG550JK+
 Input Invalid Password Sign In
     Input Text    ${InputPassword}    text=asusG550JK
 Click Login Button
     Click Element    ${LoginBtn}
-    Sleep    3
+    Sleep    10
 Verify Sign In Auth Failed
     Wait Until Element Is Visible    ${InvalidLogin}
 Close Edge Browser
