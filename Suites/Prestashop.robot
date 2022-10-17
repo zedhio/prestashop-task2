@@ -19,6 +19,7 @@ Register By Filling Out All The Forms Provided Negative
 
 Register By Filling Out All The Forms Provided Positive
     Click Button Sign In
+    Clear Input Email Address
     Input Email Address
     Click Button Create
     Click Title
@@ -38,6 +39,7 @@ Register By Filling Out All The Forms Provided Positive
     Select Country
     Input Additional Information
     Input Phone Mobile
+    Clear Input Address Alias
     Input Address Alias
     Click Button Register
     Verify Account
@@ -53,14 +55,18 @@ Login With An Unregistered Email
 
 Login With Wrong Email And Password.
     Click Button Sign In
+    Clear Input Invalid Email Sign In
     Input Invalid Email Sign In
+    Clear Input Valid Password Sign In
     Input Invalid Password Sign In
     Click Login Button
     Verify Sign In Auth Failed
 
 Login With True Email And Password.
     Click Button Sign In
+    Clear Input Valid Email Sign In
     Input Valid Email Sign In
+    Clear Input Valid Password Sig In
     Input Valid Password Sign In
     Click Login Button
     Verify Account
