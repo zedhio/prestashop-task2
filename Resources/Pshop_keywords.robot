@@ -23,7 +23,8 @@ Verify Invalid Email Address
 
 Input Email Address
     Input Text    ${InputEmailAddress}    text=rimeliw920@charav.com
-
+Cleat Input Email Address
+    Clear    ${InputEmailAddress}
 Click Button Register
     Click Element    ${RegisterBtn}
     Sleep    10
@@ -64,6 +65,8 @@ Input Additional Information
     Input Text    ${Other}    text=None
 Input Phone Mobile
     Input Text    ${PhoneMobile}    text=0895380719756
+Clear Input Address Alias
+    Clear    ${AddressAlias}
 Input Address Alias
     Input Text    ${AddressAlias}    text=SiPakarGigi
 Verify Account
@@ -75,10 +78,16 @@ Verify Login Form
     Wait Until Element Is Visible    ${Auth}
 Input Invalid Email Sign In
     Input Text    ${InputEmail}    text=rimeliw920charav.com
+Clear Input Invalid Email Sign In
+    Clear    ${InputEmail}
 Input Valid Email Sign In
     Input Text    ${InputEmail}    text=rimeliw920@charav.com
+Clear Input Valid Password Sign In
+    Clear {InputEmail}
 Input Valid Password Sign In
     Input Text    ${InputPassword}    text=asusG550JK+
+Clear Input Valid Password Sign In
+    Clear    ${InputEmail}
 Input Invalid Password Sign In
     Input Text    ${InputPassword}    text=asusG550JK
 Click Login Button
