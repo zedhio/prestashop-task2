@@ -48,7 +48,9 @@ Register By Filling Out All The Forms Provided Positive
 
 Login With An Unregistered Email
     Click Button Sign In
+    Clear Input Invalid Email Sign In
     Input Invalid Email Sign In
+    Clear Input Valid Password Sign In
     Input Valid Password Sign In
     Click Login Button
     Verify Sign In Auth Failed
@@ -64,9 +66,9 @@ Login With Wrong Email And Password.
 
 Login With True Email And Password.
     Click Button Sign In
-    Clear Input Valid Email Sign In
+    Clear Input Email Sign In
     Input Valid Email Sign In
-    Clear Input Valid Password Sig In
+    Clear Input Valid Password Sign In
     Input Valid Password Sign In
     Click Login Button
     Verify Account
