@@ -22,9 +22,9 @@ Verify Invalid Email Address
     Wait Until Element Is Visible    ${InvalidEmail}
 
 Input Email Address
-    Input Text    ${InputEmailAddress}    text=rimeliw920@charav.com
-Cleat Input Email Address
-    Clear    ${InputEmailAddress}
+    Input Text    ${InputEmailAddress}    text=vasini6091@dicopto.com
+Clear Input Email Address
+    Clear Element Text    ${InputEmailAddress}
 Click Button Register
     Click Element    ${RegisterBtn}
     Sleep    10
@@ -66,7 +66,7 @@ Input Additional Information
 Input Phone Mobile
     Input Text    ${PhoneMobile}    text=0895380719756
 Clear Input Address Alias
-    Clear    ${AddressAlias}
+    Clear Element Text    ${AddressAlias}
 Input Address Alias
     Input Text    ${AddressAlias}    text=SiPakarGigi
 Verify Account
@@ -77,17 +77,19 @@ Click SignOut
 Verify Login Form
     Wait Until Element Is Visible    ${Auth}
 Input Invalid Email Sign In
-    Input Text    ${InputEmail}    text=rimeliw920charav.com
+    Input Text    ${InputEmail}    text=vasini6091.com
 Clear Input Invalid Email Sign In
-    Clear    ${InputEmail}
+    Clear Element Text    ${InputEmail}
 Input Valid Email Sign In
-    Input Text    ${InputEmail}    text=rimeliw920@charav.com
-Clear Input Valid Password Sign In
-    Clear {InputEmail}
+    Input Text    ${InputEmail}    text=vasini6091@dicopto.com
+Clear Input Valid Email Sign In
+    Clear Element Text    {InputEmail}
+Clear Input Email Sign In
+    Clear Element Text    {InputEmail}
 Input Valid Password Sign In
     Input Text    ${InputPassword}    text=asusG550JK+
 Clear Input Valid Password Sign In
-    Clear    ${InputEmail}
+    Clear Element Text    ${InputPassword}
 Input Invalid Password Sign In
     Input Text    ${InputPassword}    text=asusG550JK
 Click Login Button
